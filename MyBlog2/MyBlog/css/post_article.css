@@ -1,0 +1,94 @@
+.post_bg{
+    background-color: #F5F5F5;
+    font-family: 华文宋体;
+    background-image: url("../images/11.png");;
+}
+.post_fix{
+    height: 50px;
+    /*background-color: #F5F5F5;*/
+}
+.post_art_main{
+    width: 70%;
+    /*background-color: #F5F5F5;*/
+    margin: 0px auto;
+    padding:20px;
+    text-align: center;
+    border-radius:10px;
+    /*border:1px solid rgba(192,192,192,0.3);*/
+    transition: all 0.3s;
+}
+
+.post_art_main:hover {
+    box-shadow: 2px 5px 10px 1px rgba(16, 15, 15, 0.5);
+}
+.post_art_main h2{
+    padding: 10px;
+    text-align: center;
+    /*background-color: #F5F5F5;*/
+}
+
+.post_form{
+    /*background-color: #F5F5F5;*/
+}
+.post_form form input{
+    width: 70%;
+    height: 40px;
+    margin:20px;
+    border-radius: 50px;
+    background: none;
+}
+
+.post_form form input:hover {
+    box-shadow: 2px 5px 10px 1px rgba(255, 255, 0, 0.8);
+}
+
+.province{
+    text-align: right;
+    padding-right: 15%;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background: none;
+}
+select{
+    border-radius: 60px;
+    background:none;
+    box-shadow: 2px 5px 10px 1px rgba(255, 255, 0, 0.8);
+}
+
+.post_form form textarea{
+    width: 70%;
+    height: 300px;
+    margin:10px;
+    border-radius: 20px;
+    background: none;
+}
+.post_form form textarea:hover{
+    box-shadow: 2px 5px 10px 1px rgba(255, 255, 0, 0.8);
+}
+
+.btnn {
+    width: 100%;
+    text-align:center;
+    /*background-color: #F5F5F5;*/
+}
+
+.btnn input[type="submit"] {
+    border-radius: 70px;
+    text-transform: uppercase;
+    background: none;
+    color: #ddefef;
+    /*padding:11px 15px;*/
+    border: none;
+    font-size: 15px;
+    outline: none;
+    width: 10%;
+    letter-spacing: 1px;
+    /*margin-top: 35px;*/
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.btnn input[type="submit"]:hover {
+    color: #000;
+    background: #2c2d2d;
+}

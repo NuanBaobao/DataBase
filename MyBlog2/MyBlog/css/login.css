@@ -1,0 +1,94 @@
+body {margin: 0px;}
+.bg{
+    background-repeat: no-repeat; /*属性在水平和垂直方向上都重复图像*/
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-image: url("../images/11.png");
+}
+.login {
+    font-family: 华文宋体;
+    width: 20%;
+    background: rgba(0,0,0,0);
+    padding: 0 20px 0 20px;
+    top: 0;
+    left: 15%;
+    position: absolute;
+    overflow-y: auto;
+}
+.login h1{color: #FFFFFF;}
+
+.login form {
+    padding: 24px;
+    font-weight: 400;
+    background: rgba(255,255,255,.1);
+    border: none;
+    /*box-shadow: #000 0 0 10px -1px;*/
+    overflow:hidden;
+    border-radius: 50px;
+    height: 80%;
+}
+.login form .input, .login input[type="text"] {
+    color: #555;
+    font-weight: 200;
+    font-size: 17px;
+    text-indent: 3px;
+    line-height: 1.4;
+    width: 96%;
+    padding: 5px;
+    margin-top: 2px;
+    margin-right: 6px;
+    margin-bottom: 16px;
+    border: 2px solid #DCE4EC;
+    background: #FFFFFF;
+    outline: 0;
+    border-radius: 50px;
+}
+
+
+.login input[type="text"]:focus, textarea:focus {
+    border-color:rgba(82, 168, 236, 0.8);
+    box-shadow: 0 0 8px rgba(103, 166, 217, 1);
+}
+.login form .input[type="password"]:focus, textarea:focus {
+    border-color:rgba(82, 168, 236, 0.8);
+    box-shadow: 0 0 8px rgba(103, 166, 217, 1);
+}
+.login label {
+    color: #FFF;
+    font-size: 14px;
+}
+.login .button-primary {
+    font-size: 14px!important;
+    font-weight: 700;
+    float: right;
+    background: #5897b6;
+    border-color: #4d575d;
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px 20px ;
+    cursor:pointer;
+}
+
+.button-primary:hover {
+    background: #173f50;
+    border-color: #b0d3e1;
+    color: #fff;
+}
+.footer{
+    margin-top: 5%;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.nav a , .backsign a {
+    font-size:13px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav a {float:right;}
+.footer a:hover{color: #a0c0ce;}
+.blog
+{
+    margin-left: 85%;
+    padding-top: 600px;
+}

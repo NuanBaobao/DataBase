@@ -1,0 +1,73 @@
+/*评论框*/
+.comment_board{
+    width: 900px;
+    background: none;
+    margin: 20px auto;
+    margin-top: 20px;
+    /*border: 1px solid rgba(192,192,192,0.3);*/
+    transition: all 0.5s;
+    margin-bottom: 100px;
+}
+.comment_board form{
+    margin: 0px;
+    border: 0 none;
+    outline-style: none;
+    background: none;
+}
+/*评论框文本内容*/
+#message{
+    background-color: #ffffff;
+    width: 100%;
+    height: 300px;
+    font-size:16px;
+    border-radius: 20px;
+}
+#message:hover
+{
+    box-shadow: 2px 5px 10px 1px rgba(192,192,192,0.9);
+}
+/*按钮*/
+.btnn {
+    width: 100%;
+    text-align:center;
+}
+
+.btnn input[type="submit"] {
+    border-radius: 50px;
+    text-transform: uppercase;
+    background: #adb3b9;
+    color: #FFFFFF;
+    padding:11px 15px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    width: 20%;
+    letter-spacing: 1px;
+    margin-top: 35px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.btnn input[type="submit"]:hover {
+    color: #000;
+    background: #343638;
+}
+.btnn input[type="button"] {
+    border-radius: 50px;
+    text-transform: uppercase;
+    background: #adb3b9;
+    color: #FFFFFF;
+    padding:11px 15px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    width: 20%;
+    letter-spacing: 1px;
+    margin-top: 35px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.btnn input[type="button"]:hover {
+    color: #000;
+    background: #343638;
+}

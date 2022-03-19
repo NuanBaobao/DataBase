@@ -1,0 +1,59 @@
+.user_title{
+    width:40%;
+    height: 20px;
+    background: darkmagenta;
+    text-align: center;
+    margin-left: 400px;
+}
+.user_title h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+.users_bg{
+    background-color: #a60909;
+    font-family: -apple-system,BlinkMacSystemFont,opensans,Optima,"Microsoft Yahei",sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 300;
+    overflow-x: hidden;
+    margin: 0;
+    /*background-image: url("../images/11.png");*/
+}
+.users_ino{
+    width: 960px;
+    background-color: #1f1c98;
+    margin: 20px auto;
+    margin-top:20px;
+    border:1px solid rgba(192,192,192,0.3);
+    transition: all 0.5s;
+    /*border-radius: 50px;*/
+}
+.one_user_ino{
+    width:50%;
+    background: darkgoldenrod;
+    /*height: 100px;*/
+    margin-left: 100px;
+}
+.base_ino{
+    margin-top: 0px;
+    background: blueviolet;
+    width: 90%;
+    margin-bottom: 0px;
+}
+.user_article{
+    width: 60%;
+    background: deeppink;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*height: 400px;*/
+}
+.user_article h3{
+    font-weight: 300;
+    margin: 0px;
+}
+.article_ino{
+    width: 100%;
+    /*height:*/
+    background: aqua;
+    margin: 0px 0px 0px 0px;
+}

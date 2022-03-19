@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Library/Controller/addBooks.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Library/Controller/books.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Library/Controller/dbConfig.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Library/Controller/delBook.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Library/Controller/editBooks.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Library/Controller/updateBooks.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/MyBlog/Connect/dbConfig.php" charset="GBK" />
+  </component>
+</project>

@@ -1,0 +1,10 @@
+CREATE  DATABASE 'test';
+USE  'test';
+CREATE TABLE `user` (
+  `userid` varchar(30) NOT NULL,
+  `username` varchar(45) NOT NULL,
+  `password` varchar(45) NOT NULL,
+  PRIMARY KEY (`userid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `user` VALUES ('001','lilei','23456'),('002','dccf','23d3dcf'),('003','vdcd','fdvdvdv');

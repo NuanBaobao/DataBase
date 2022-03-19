@@ -1,0 +1,90 @@
+.user_information{
+    background-color: #f4f8f8;
+    font-family: -apple-system,BlinkMacSystemFont,opensans,Optima,"Microsoft Yahei",sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 300;
+    overflow-x: hidden;
+    margin: 0;
+    /*padding-left: 10%;*/
+}
+.appointment {
+    background-color: rgba(208, 213, 213, 0.8);
+    margin: 50px auto 50px;
+    padding: 40px 40px;
+    width: 600px;
+    border-radius: 50px;
+    /*float: left;*/
+    /*margin-right: 160px;*/
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-right,.form-left{flex-basis: 45%;}
+
+.form-left input[type="text"],.form-right input[type="email"],
+.form-left input[type="password"],.form-right input[type="password"],
+.form-right input[type="number"]{
+    width:100%;
+    color: #000;
+    outline: none;
+    font-size: 15px;
+    padding: .8em 1em;
+    padding-left: 1em;
+    border: none;
+    border-bottom:1px solid #fff;
+    margin: 0px 0px 30px;
+    background:none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s all;
+}
+.form-left input[type="text"]:hover {
+    color: #000;
+    background: #343638;
+}
+.form-left input[type="password"]:hover {
+    color: #000;
+    background: #343638;
+}
+.form-right input[type="password"]:hover {
+    color: #000;
+    background: #343638;
+}
+.form-right input[type="email"]:hover {
+    color: #000;
+    background: #343638;
+}
+.form-right input[type="number"]:hover {
+    color: #000;
+    background: #343638;
+}
+.btnn {
+    width: 100%;
+    text-align:center;
+}
+
+.btnn input[type="submit"] {
+    border-radius: 50px;
+    text-transform: uppercase;
+    background: #adb3b9;
+    color: #FFFFFF;
+    padding:11px 15px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    width: 30%;
+    letter-spacing: 1px;
+    margin-top: 35px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.btnn input[type="submit"]:hover {
+    color: #000;
+    background: #343638;
+}

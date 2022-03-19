@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>POST</title>
+</head>
+<body>
+<form action="" method="get">
+    <input type="text" name="test" />
+    <input type="submit" name="anl" value="tijiao" />
+    <?php
+    echo $_POST["test"];
+    ?>
+</form>
+<form>
+<?php
+for($i=1;$i<=9;$i++)
+{
+    for($j=1;$j<=9;$j++)
+    {
+        echo "$i*$j=".$i*$j;
+        echo "&nbsp";
+    }
+    echo "<br />";
+}
+?>
+</form>
+</body>
+</html>
