@@ -1,0 +1,72 @@
+body{
+    margin: 0; /* 设置 margin: 0 删除浏览器的默认设置*/
+    overflow-x: hidden;
+    overflow-y: auto; /* 如果侧栏的内容太多，则启用滚动条 */
+    background-image: url("../images/11.png");
+}
+
+.main-header{
+    background-color: #f5f5f5;
+    font-family: -apple-system,BlinkMacSystemFont,opensans,Optima,"Microsoft Yahei",sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+    background-image: url("../images/11.png");
+}
+.main-header a{ /*将链接显示为块元素可以使整个链接区域都可以被单击*/
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 20px;
+    transition: all 0.6s;
+}
+.main-header a:hover{ /* 当鼠标悬停时把链接颜色更改 */
+    color:#3399FF;
+}
+.main-header h2{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: none;
+    font-size: 36px;
+    display: inline-block;
+    font-weight: 400;
+}
+.main-header span{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    display: inline-block;
+
+}
+.container{ /*容器 */
+    width: 100%;
+    height: 350px;
+}
+.navigation{ /*导航*/
+    height: 100%;
+    font-size:20px;
+    text-align: center;
+    background-position: 0% 50%;
+    background-size: 100%;
+    text-shadow: 2px 2px 2px #666;
+}
+.info{
+    padding: 0px;
+    /*position: fixed;*/
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background: rgba(40,42,44,0.6); /* 60% 不透明度的背景 */
+}
+.menu li{
+    list-style: none; /*删除项目符号。导航条不需要列表项标记*/
+}
+.menu-one {
+    margin: 0px;
+    padding-top: 10px;
+    /*overflow: auto;*/
+}
+.menu-one li{
+    display:inline;/*<li> 元素是块元素。在这里，我们删除每个列表项之前和之后的换行符，这样它们才能显示在一行*/
+    /*overflow: auto;*/
+}
