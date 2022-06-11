@@ -1,0 +1,165 @@
+.user_title{
+    width:40%;
+    height: 20px;
+    /*background: darkmagenta;*/
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 600px;
+}
+.user_title h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+.users_bg{
+    /*background-color: #a60909;*/
+    font-family: -apple-system,BlinkMacSystemFont,opensans,Optima,"Microsoft Yahei",sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 300;
+    overflow-x: hidden;
+    margin: 0;
+    /*background-image: url("../images/11.png");*/
+}
+.users_ino{
+    width: 90%;
+    /*background-color: #1f1c98;*/
+    margin: 20px auto;
+    margin-top:20px;
+    /*border:1px solid rgba(192,192,192,0.3);*/
+    transition: all 0.5s;
+    /*border-radius: 50px;*/
+}
+.one_user_ino{
+    width:90%;
+    /*background: darkgoldenrod;*/
+    /*height: 100px;*/
+    margin-left: 17%;
+}
+.base_ino{
+    margin-top: 0px;
+    /*background-color: rgba(166, 169, 169, 0.8);*/
+    width: 30%;
+    margin-bottom: 0px;
+    margin-left: 2%;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+}
+.base_ino:hover {
+    box-shadow: 2px 5px 10px 1px rgba(192,192,192,0.9);
+}
+.user_article{
+    width: 90%;
+    /*background: deeppink;*/
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*height: 400px;*/
+}
+.user_article h3{
+    font-weight: 300;
+    margin: 0px;
+}
+.article_ino{
+    width: 60%;
+    /*height:*/
+    background-color: #f5f5f5;
+    margin: 0px 0px 0px 0px;
+    /*margin-left: 80px;*/
+    padding-left: 20%;
+    border-radius: 50px;
+}
+.article_ino:hover {
+    box-shadow: 2px 5px 10px 1px rgb(88, 90, 91);
+}
+.user_ino{
+    /*padding-left: 10%;*/
+}
+.article{
+    /*background: darksalmon;*/
+}
+.delete_article input[type="submit"] {
+    border-radius: 50px;
+    text-transform: uppercase;
+    background-color: #f5f5f5;
+    color: #5f6a6e;
+    /*padding:11px 15px;*/
+    border: none;
+    font-size: 12px;
+    outline: none;
+    width: 10%;
+    letter-spacing: 1px;
+    /*margin-top: 35px;*/
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.delete_article input[type="submit"]:hover {
+    color: #000;
+    background: #343638;
+}
+.delete_article input[type="text"] {
+    border-radius: 50px;
+    text-transform: uppercase;
+    background-color: #f5f5f5;
+    color: #5f6a6e;
+    /*padding:11px 15px;*/
+    border: none;
+    font-size: 12px;
+    outline: none;
+    width: 10%;
+    letter-spacing: 1px;
+    /*margin-top: 35px;*/
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.delete_article input[type="text"]:hover {
+    color: #000;
+    background: #343638;
+}
+.delete_user{
+    /*background: coral;*/
+    width: 30%;
+    margin-left: 400px;
+}
+.delete_user input[type="submit"] {
+    border-radius: 50px;
+    text-transform: uppercase;
+    background-color: #f5f5f5;
+    color: #5f6a6e;
+    /*padding:11px 15px;*/
+    border: none;
+    font-size: 12px;
+    outline: none;
+    width: 20%;
+    letter-spacing: 1px;
+    /*margin-top: 35px;*/
+    /*margin-left: 200px;*/
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.delete_user input[type="submit"]:hover {
+    color: #000;
+    background: #343638;
+}
+.delete_user input[type="text"] {
+    border-radius: 50px;
+    text-transform: uppercase;
+    background-color: #f5f5f5;
+    color: #5f6a6e;
+    /*padding:11px 15px;*/
+    border: none;
+    font-size: 12px;
+    outline: none;
+    width: 20%;
+    letter-spacing: 1px;
+    /*margin-top: 35px;*/
+    /*margin-left: 100px;*/
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.delete_user input[type="text"]:hover {
+    color: #000;
+    background: #343638;
+}
